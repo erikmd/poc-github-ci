@@ -1,0 +1,22 @@
+# Author: Erik Martin-Dorel, 2021
+name: test
+
+on:
+  push:
+    branches:
+      - master
+  pull_request:
+    branches:
+      - '**'
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+      - name: Install requirements.txt
+        run: pip install --no-cache-dir -r requirements.txt
+      - name: Print script version
+        run: ./example.py --version
+      - name: Run tests
+        run: pytest *.py
