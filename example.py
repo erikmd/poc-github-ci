@@ -26,7 +26,7 @@ def get_version():
 
 def operation(a, b):
     """Compute the addition (currently)"""
-    return a * b
+    return a + b
 
 
 def test_indent_script():
