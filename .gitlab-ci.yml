@@ -1,0 +1,17 @@
+# Author: Erik Martin-Dorel, 2021
+
+stages:
+  - test
+
+.python:
+  image: python:3-alpine
+  before_script:
+    - python --version
+
+test-python:
+  stage: test
+  extends: .python
+  script:
+    - pip install --no-cache-dir -r requirements.txt
+    - ./example.py --version
+    - pytest *.py
