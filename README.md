@@ -1,8 +1,11 @@
 # poc-github-ci
 
-This GitHub repository is intended to provide a small example config.
-for both (GitHub Actions, GitLab CI), and to demonstrate the kind of
-feedback we can get in the context of GitHub's Pull Requests.
+This GitHub repository is intended to provide a small example
+configuration for both [GitHub Actions](
+https://docs.github.com/en/actions/reference/workflow-syntax-for-github-actions)
+and [GitLab CI](https://docs.gitlab.com/ee/ci/yaml/), and to
+demonstrate the kind of feedback we can get in the context of GitHub's
+Pull Requests.
 
 Note that the GitLab CI workflow specifically relies on:
 
