@@ -1,5 +1,13 @@
 # poc-github-ci
 
+[![GHA test][github-action-shield]][github-action-link]
+[![GitLab pipeline][gitlab-ci-shield]][gitlab-ci-link]
+
+[github-action-shield]: https://github.com/erikmd/poc-github-ci/workflows/test/badge.svg?branch=master
+[github-action-link]: https://github.com/erikmd/poc-github-ci/actions?query=workflow:test "GitHub Action"
+[gitlab-ci-shield]: https://gitlab.com/erikmd/poc-github-ci/badges/master/pipeline.svg
+[gitlab-ci-link]: https://gitlab.com/erikmd/poc-github-ci/-/pipelines "GitLab CI"
+
 This GitHub repository is intended to provide a small example
 configuration for both [GitHub Actions](
 https://docs.github.com/en/actions/reference/workflow-syntax-for-github-actions)
