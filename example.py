@@ -31,7 +31,7 @@ def operation(a, b):
 
 def test_indent_script():
     assert operation(2, 2) == 4
-    # assert operation(3, 3) == 6
+    assert operation(3, 3) == 6
 
 
 def main(argv):
